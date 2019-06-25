@@ -1,0 +1,184 @@
+.hero {
+  line-height: 2rem;
+  text-align: center;
+  color: #ffffff;
+  background-color: rgba(0, 27, 80, 0.9);
+}
+.hero-background {
+  background-image: url('../assets/mac-back.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+}
+.hero-container {
+  width: 100%;
+  max-width: 537px;
+  margin: 0 auto;
+}
+.hero-name {
+  font-family: 'Fontdiner';
+  font-size: 6.5rem;
+  font-weight: 400;
+  letter-spacing: 8px;
+  padding: 6rem 0 0;
+  line-height: 10rem;
+  margin: 0;
+}
+.hero-role {
+  font-weight: 400;
+  margin: 3rem 0;
+  font-size: 1.25rem;
+}
+.hero-info {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.25px;
+  margin: 2.5rem 2rem;
+}
+.hero-links {
+  margin: 4rem 6rem;
+  margin: 3rem;
+  display: flex;
+  justify-content: space-between;
+  line-height: 0;
+  .icon-link {
+    color: #ffffff;
+    transition: color 125ms cubic-bezier(0.4, 0.25, 0.3, 1);
+    &:hover {
+      color: #80adff;
+    }
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+.hero-button {
+  padding-top: 0.8rem;
+  height: 170px;
+}
+.hero-button-show {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1rem;
+  text-transform: uppercase;
+  padding: 0.85rem 1.15rem;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 100px;
+  box-shadow: 0px 5px 1px 0px #ffffff;
+  position: relative;
+  &:hover {
+    background-color: #02143a;
+    box-shadow: 0px 3px 1px 0px #ffffff;
+    top: 2px;
+  }
+  &:active {
+    background-color: #02143a;
+    box-shadow: 0px 0px 10px 0px #ffffff;
+    top: 5px;
+  }
+}
+.hero-scroll {
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  animation: MoveUpDown 2.5s ease-in-out infinite;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  .hero-arrow::before,
+  .hero-arrow::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 3px;
+    background: #ffffff;
+    border-radius: 2px;
+  }
+  .hero-arrow::before {
+    top: 13px;
+    right: 8px;
+    transform: rotate(-45deg);
+  }
+  .hero-arrow::after {
+    top: 13px;
+    left: 8px;
+    transform: rotate(45deg);
+  }
+}
+
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    bottom: -30px;
+  }
+  50% {
+    bottom: -50px;
+  }
+}
+
+@media (min-width: 500px) {
+  .hero-name {
+    font-size: 8rem;
+    letter-spacing: 12px;
+    line-height: 12rem;
+  }
+}
+
+@media (min-width: 750px) {
+  .hero-name {
+    font-size: 6.5rem;
+    letter-spacing: 10px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .hero {
+    height: 100vh;
+    padding-top: 48px;
+    display: flex;
+    align-items: center;
+  }
+  .hero-container {
+    max-width: 750px;
+  }
+  .hero-name {
+    font-size: 9.5rem;
+    margin: 5rem 0 0;
+    letter-spacing: 11px;
+    line-height: 0;
+  }
+  .hero-role {
+    margin: 10rem 0 0;
+  }
+  .hero-info {
+    max-width: 550px;
+    margin: 2.5rem auto;
+  }
+  .hero-links {
+    margin: 4rem auto;
+    max-width: 400px;
+  }
+  @keyframes MoveUpDown {
+    0%,
+    100% {
+      bottom: -40px;
+    }
+    50% {
+      bottom: -70px;
+    }
+  }
+}

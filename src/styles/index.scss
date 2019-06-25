@@ -1,0 +1,114 @@
+@import 'Navbar.scss';
+@import 'Hero.scss';
+@import 'About.scss';
+@import 'Projects.scss';
+@import 'Contact.scss';
+@import 'Footer.scss';
+@import 'Portfolio.scss';
+@import 'NotFound.scss';
+
+@font-face {
+  font-family: 'Fontdiner';
+  src: url('../fonts/Fontdiner/Fontdiner.eot');
+  src: url('../fonts/Fontdiner/Fontdiner.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/Fontdiner/Fontdiner.svg') format('svg'),
+    url('../fonts/Fontdiner/Fontdiner.ttf') format('truetype'),
+    url('../fonts/Fontdiner/Fontdiner.woff') format('woff'),
+    url('../fonts/Fontdiner/Fontdiner.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'JosefinSans';
+  src: url('../fonts/JosefinSans/JosefinSans.eot');
+  src: url('../fonts/JosefinSans/JosefinSans.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/JosefinSans/JosefinSans.svg') format('svg'),
+    url('../fonts/JosefinSans/JosefinSans.ttf') format('truetype'),
+    url('../fonts/JosefinSans/JosefinSans.woff') format('woff'),
+    url('../fonts/JosefinSans/JosefinSans.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url('../fonts/Quicksand/Quicksand.eot');
+  src: url('../fonts/Quicksand/Quicksand.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/Quicksand/Quicksand.svg') format('svg'),
+    url('../fonts/Quicksand/Quicksand.ttf') format('truetype'),
+    url('../fonts/Quicksand/Quicksand.woff') format('woff'),
+    url('../fonts/Quicksand/Quicksand.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  outline: none;
+  background-color: #001b50;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-family: 'JosefinSans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+img {
+  max-width: 100%;
+}
+textarea {
+  resize: none;
+}
+svg {
+  vertical-align: bottom;
+}
+::selection {
+  background: #fff195;
+  color: #000;
+  display: block;
+}
+.home-page,
+.port-page,
+.not-found-page {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.fade-appear,
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms linear 150ms;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transition: opacity 150ms linear;
+}

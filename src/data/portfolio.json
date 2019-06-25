@@ -1,0 +1,76 @@
+{
+  "data": {
+    "resume": {
+      "img": "../static/resume/Dony_Cisneros_Resume.jpg",
+      "pdf": "../static/resume/Dony_Cisneros_Resume.pdf"
+    },
+    "projects": [
+      {
+        "id": 1,
+        "title": "Scoreboard",
+        "description": "Web app built with ReactJS Scoreboard is an application that you can use to keep track of players and their points while you can save the data and use a stopwatch.",
+        "img": {
+          "small": "../static/projects/scoreboard_small.jpg",
+          "normal": "../static/projects/scoreboard.jpg"
+        },
+        "demoURL": "https://scoreboard.now.sh/",
+        "githubURL": "https://github.com/donycisneros/scoreboard"
+      },
+      {
+        "id": 2,
+        "title": "Invitations",
+        "description": "Web app built with ReactJS. Invitations is an application that you can use to invite people and see who confirm that invite or not. The app save your invites.",
+        "img": {
+          "small": "../static/projects/invitations_small.jpg",
+          "normal": "../static/projects/invitations.jpg"
+        },
+        "demoURL": "https://invitations.now.sh",
+        "githubURL": "https://github.com/donycisneros/invitations"
+      },
+      {
+        "id": 3,
+        "title": "GIF Search",
+        "description": "Web app built with ReactJS Gif Search is an application for search a gif you want to share and download. You can also save your favorites GiFs for use later.",
+        "img": {
+          "small": "../static/projects/GIFSearch_small.jpg",
+          "normal": "../static/projects/GIFSearch.jpg"
+        },
+        "demoURL": "https://gif-search.now.sh/",
+        "githubURL": "https://github.com/donycisneros/gif-search"
+      },
+      {
+        "id": 4,
+        "title": "Interactive Map",
+        "description": "Interactive Map made with Vanilla JS and Google Maps API. This web is like the light version of Google Maps where you can find directions and other things.",
+        "img": {
+          "small": "../static/projects/maps_small.jpg",
+          "normal": "../static/projects/maps.jpg"
+        },
+        "demoURL": "https://interactive-map-dony.netlify.com",
+        "githubURL": "https://github.com/donycisneros/interactive-map"
+      },
+      {
+        "id": 5,
+        "title": "Pixel Art",
+        "description": "Pixel art web app made with jQuery. You can draw images, and then you can download your image if you want. Have fun !",
+        "img": {
+          "small": "../static/projects/pixel_small.jpg",
+          "normal": "../static/projects/pixel.jpg"
+        },
+        "demoURL": "https://donycisneros.github.io/my-pixel-art/",
+        "githubURL": "https://github.com/donycisneros/my-pixel-art"
+      },
+      {
+        "id": 6,
+        "title": "Puzzle",
+        "description": "Puzzle app made with Vanilla JS. This is a simple puzzle where you can win if you solve it, show me your challenging ability. Use the arrow keys to move the pieces of the puzzle.",
+        "img": {
+          "small": "../static/projects/puzzle_small.jpg",
+          "normal": "../static/projects/puzzle.jpg"
+        },
+        "demoURL": "https://donycisneros.github.io/rompecabezas/",
+        "githubURL": "https://github.com/donycisneros/rompecabezas"
+      }
+    ]
+  }
+}
