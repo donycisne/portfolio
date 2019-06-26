@@ -18,7 +18,7 @@
 - **[Sass](https://sass-lang.com)**
 - **[Axios](https://github.com/axios/axios)**
 - **[GSAP](https://greensock.com/gsap)**
-- **[Now](https://zeit.co/now)**
+- **[Netlify](https://www.netlify.com)**
 
 ---
 
