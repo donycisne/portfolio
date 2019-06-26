@@ -175,12 +175,14 @@
 
 @media (min-width: 1150px) {
   .contact {
-    height: calc(100vh - 69px);
+    min-height: calc(100vh - 69px);
     padding: 50px 18px;
   }
   .contact-container {
     flex-direction: row;
+    padding: 48px 0 24px;
     width: 1100px;
+    min-height: calc(100vh - 169px);
   }
   .contact-content {
     width: 425px;
