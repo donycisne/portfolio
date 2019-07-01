@@ -1,5 +1,8 @@
 .portfolio-page {
   padding-top: 48px;
+  .projects-background {
+    height: calc(100% - 48px);
+  }
   .projects-section {
     padding-top: 3rem;
   }
