@@ -20,7 +20,7 @@ const AboutResume = () => {
           className="resume-download"
           href={aboutPdf}
           id="download"
-          download="dony_cisneros_resume"
+          download="Dony_Cisneros_Resume"
         >
           <Download />
           <span>Download Resume</span>
