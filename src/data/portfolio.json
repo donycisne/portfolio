@@ -29,14 +29,14 @@
       },
       {
         "id": 3,
-        "title": "GIF Search",
-        "description": "Web app built with ReactJS Gif Search is an application for search a gif you want to share and download. You can also save your favorites GiFs for use later.",
+        "title": "Star Wars API",
+        "description": "Web app built with ReactJS, Redux and Material-UI. This is an application that show you the information about characters, movies and other thing about the universe of Star Wars movies.",
         "img": {
-          "small": "../static/projects/GIFSearch_small.jpg",
-          "normal": "../static/projects/GIFSearch.jpg"
+          "small": "../static/projects/swapi_small.jpg",
+          "normal": "../static/projects/swapi.jpg"
         },
-        "demoURL": "https://gif-search.now.sh/",
-        "githubURL": "https://github.com/donycisneros/gif-search"
+        "demoURL": "https://swapi-challenge.now.sh/",
+        "githubURL": "https://github.com/donycisneros/swapi-challenge"
       },
       {
         "id": 4,
