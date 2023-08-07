@@ -14,7 +14,7 @@
           "normal": "../static/projects/scoreboard.jpg"
         },
         "demoURL": "https://scoreboard.now.sh/",
-        "githubURL": "https://github.com/donycisneros/scoreboard"
+        "githubURL": "https://github.com/donycisne/scoreboard"
       },
       {
         "id": 2,
@@ -25,7 +25,7 @@
           "normal": "../static/projects/invitations.jpg"
         },
         "demoURL": "https://invitations.now.sh",
-        "githubURL": "https://github.com/donycisneros/invitations"
+        "githubURL": "https://github.com/donycisne/invitations"
       },
       {
         "id": 3,
@@ -36,7 +36,7 @@
           "normal": "../static/projects/swapi.jpg"
         },
         "demoURL": "https://swapi-challenge.now.sh/",
-        "githubURL": "https://github.com/donycisneros/swapi-challenge"
+        "githubURL": "https://github.com/donycisne/swapi-challenge"
       },
       {
         "id": 4,
@@ -47,7 +47,7 @@
           "normal": "../static/projects/maps.jpg"
         },
         "demoURL": "https://interactive-map-dony.netlify.com",
-        "githubURL": "https://github.com/donycisneros/interactive-map"
+        "githubURL": "https://github.com/donycisne/interactive-map"
       },
       {
         "id": 5,
@@ -57,8 +57,8 @@
           "small": "../static/projects/pixel_small.jpg",
           "normal": "../static/projects/pixel.jpg"
         },
-        "demoURL": "https://donycisneros.github.io/my-pixel-art/",
-        "githubURL": "https://github.com/donycisneros/my-pixel-art"
+        "demoURL": "https://donycisne.github.io/my-pixel-art/",
+        "githubURL": "https://github.com/donycisne/my-pixel-art"
       },
       {
         "id": 6,
@@ -68,8 +68,8 @@
           "small": "../static/projects/puzzle_small.jpg",
           "normal": "../static/projects/puzzle.jpg"
         },
-        "demoURL": "https://donycisneros.github.io/rompecabezas/",
-        "githubURL": "https://github.com/donycisneros/rompecabezas"
+        "demoURL": "https://donycisne.github.io/rompecabezas/",
+        "githubURL": "https://github.com/donycisne/rompecabezas"
       }
     ]
   }

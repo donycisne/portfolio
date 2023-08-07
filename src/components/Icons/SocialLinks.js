@@ -9,7 +9,7 @@ const IconsLinks = () => {
   return (
     <React.Fragment>
       <a
-        href="https://codesandbox.io/u/donycisneros/sandboxes"
+        href="https://codesandbox.io/u/donycisne/sandboxes"
         className="icon-link"
         target="_blank"
         rel="noopener noreferrer"
@@ -18,7 +18,7 @@ const IconsLinks = () => {
         <CodeSandbox />
       </a>
       <a
-        href="https://www.linkedin.com/in/donycisneros"
+        href="https://www.linkedin.com/in/donycisne"
         className="icon-link"
         target="_blank"
         rel="noopener noreferrer"
@@ -27,7 +27,7 @@ const IconsLinks = () => {
         <LinkedIn />
       </a>
       <a
-        href="https://github.com/donycisneros"
+        href="https://github.com/donycisne"
         className="icon-link"
         target="_blank"
         rel="noopener noreferrer"

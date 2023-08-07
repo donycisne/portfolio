@@ -26,7 +26,7 @@ const Contact = () => {
             <p>
               For more information or to follow my work, you can also find me on{' '}
               <a
-                href="https://codesandbox.io/u/donycisneros/sandboxes"
+                href="https://codesandbox.io/u/donycisne/sandboxes"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -34,7 +34,7 @@ const Contact = () => {
               </a>
               ,{' '}
               <a
-                href="https://www.linkedin.com/in/donycisneros"
+                href="https://www.linkedin.com/in/donycisne"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -42,7 +42,7 @@ const Contact = () => {
               </a>
               ,{' '}
               <a
-                href="https://github.com/donycisneros"
+                href="https://github.com/donycisne"
                 target="_blank"
                 rel="noopener noreferrer"
               >

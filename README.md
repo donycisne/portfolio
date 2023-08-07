@@ -1,6 +1,6 @@
 # Dony Cisneros Website
 
-:globe_with_meridians: **https://donycisneros.com**
+:globe_with_meridians: **https://donycisne.com**
 
 ---
 
@@ -24,7 +24,7 @@
 
 ## Portfolio Server
 
-You can see the server repository here: [**portfolio-server**](https://github.com/donycisneros/portfolio-server).
+You can see the server repository here: [**portfolio-server**](https://github.com/donycisne/portfolio-server).
 
 ---
 
